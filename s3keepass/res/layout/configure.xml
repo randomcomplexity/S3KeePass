@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/Title"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		    <TableLayout
+		        android:id="@+id/tableLayout1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+				
+		        <TableRow
+		            android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+						
+		            <TextView
+		                android:id="@+id/textView_AccessKey"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/AccessKeyField"
+		                android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+		            <EditText
+		                android:id="@+id/editText_AccessKey"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1" >
+		
+		                <requestFocus />
+		            </EditText>
+		        </TableRow>
+		        
+		            
+		        <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+        
+        
+        
+                    <TextView
+                        android:id="@+id/textView_SecretKey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SecretKeyField"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        
+                    <EditText
+                        android:id="@+id/editText_SecretKey"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+        
+                        <requestFocus />
+                    </EditText>
+                </TableRow>
+				
+		        <TableRow
+		            android:id="@+id/tableRow3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+						
+		            <TextView
+		                android:id="@+id/textView_Bucket"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/BucketNameField"
+		                android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+		            <EditText
+		                android:id="@+id/editText_Bucket"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1" />
+		
+		        </TableRow>
+        
+        
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+        
+
+                    <TextView
+                        android:id="@+id/textView_LocalFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LocalFileField"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+                    <EditText
+                        android:id="@+id/editText_LocalFile"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </TableRow>
+        
+        
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+        
+                    <TextView
+                        android:id="@+id/textView_LocalFolder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LocalFolderField"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+                    <EditText
+                        android:id="@+id/editText_LocalFolder"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </TableRow>
+				
+		        <TableRow
+		            android:id="@+id/tableRow6"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+		
+		            <TextView
+		                android:id="@+id/textView_RemoteFile"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/RemoteFileField"
+		                android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		            <EditText
+		                android:id="@+id/editText_RemoteFile"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1" />
+		        </TableRow>
+		
+		    </TableLayout>
+				
+		    <LinearLayout
+		        android:id="@+id/linearLayout1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+						
+		        <Button
+		            android:id="@+id/button_SaveButton"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/SaveButton" />
+								
+		        <Button
+		            android:id="@+id/button_BackButton"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/BackButton" />
+		
+		    </LinearLayout>
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

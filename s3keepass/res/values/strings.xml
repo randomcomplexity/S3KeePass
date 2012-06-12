@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S3KeePass</string>
+    <string name="Title">S3KeePass - Enables S3 Password Database Downloads for KeePassDroid</string>
+    <string name="ConfigureButton">Configure S3KeePass</string>
+    <string name="SaveButton">Save Settings</string>
+    <string name="BackButton">Back</string>
+    <string name="AccessKeyField">Access Key</string>
+    <string name="SecretKeyField">Secret Key</string>
+    <string name="BucketNameField">Bucket</string>
+    <string name="LocalFileField">Local File</string>
+    <string name="LocalFolderField">Local Folder</string>
+    <string name="RemoteFileField">Remote File</string>
+    <string name="AccessKeyDefault">Access Key ID</string>
+    <string name="SecretKeyDefault">Secret Key</string>
+    <string name="BucketDefault">keepassbucket</string>
+    <string name="LocalFileDefault">keepass.kdb</string>
+    <string name="LocalFolderDefault">/mnt/sdcard/keepass/</string>
+    <string name="RemoteFileDefault">keepass.kdb</string>
+</resources>
